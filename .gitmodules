@@ -1,3 +1,6 @@
 [submodule "tock"]
 	path = tock
 	url = git@github.com:chipsalliance/VeeR-EL2-Tock.git
+[submodule "libtock-c"]
+	path = libtock-c
+	url = https://github.com/tock/libtock-c.git
