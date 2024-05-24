@@ -4,3 +4,6 @@
 [submodule "libtock-c"]
 	path = libtock-c
 	url = https://github.com/tock/libtock-c.git
+[submodule "cores-veer-el2"]
+	path = cores-veer-el2
+	url = https://github.com/chipsalliance/Cores-VeeR-EL2.git
