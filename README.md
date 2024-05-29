@@ -43,6 +43,10 @@ Now `program.hex` is ready to be used in simulation.
 
 # Running simulation in Verilator
 
+First increase the maximum number of cycles in simulation:
+
+    sed -i 's/parameter MAX_CYCLES = 2_000_000;/parameter MAX_CYCLES = 10_000_000;/g' cores-veer-el2/testbench/tb_top.sv
+
 There's a testbench that can be built and run using these commands:
 
     cd cores-veer-el2
